@@ -3,7 +3,7 @@
 		<view class="banner">
 			<image class="bannerImg" src="../../../static/icon/酒店/酒店详细页/酒店切图/微信图片_20191001150140_01.gif" mode=""></image>
 			<view class="banner_menu">
-				
+
 			</view>
 		</view>
 		<view class="introduce_con df">
@@ -17,10 +17,10 @@
 		<view class="hotel_place">
 			<view class="hotel_place_txt">
 				<view>光明区松白路5013号(天虹商场)</view>
-				<view style="display: flex;align-items: center;">
-					<img width="10%" height="50%" src="../../../static/icon/酒店/酒店详细页/地址.png" alt="">
+				<view style="display: flex;align-items: center;color: #9e9e9c;font-size: 22upx;line-height: 60upx;">
+					<img width="8%" height="45%" src="../../../static/icon/酒店/酒店详细页/地址.png" alt="">
 					直线距离1.7KM，驾车约7分钟
-					</view>
+				</view>
 			</view>
 			<view class="hotel_place_con">
 				<view class="hotel_place_con_btn">
@@ -28,7 +28,6 @@
 					<text>地图/路线</text>
 				</view>
 				<view class="hotel_place_con_btn">
-				
 					<img src="../../../static/icon/酒店/酒店详细页/电 话.png" alt="">
 					<text>电话</text>
 				</view>
@@ -220,150 +219,197 @@
 		justify-content: space-between;
 	}
 
+	.introduce_youhui {
+		width: 180upx;
+		height: 32upx;
+		line-height: 32upx;
+		border-radius: 16upx;
+		font-size: 16upx;
+		color: #FFFFFF;
+		background: #f48a3c;
+		margin-left: 0upx;
+		text-align: center;
+	}
+
 	.introduce_tit {
 		font-size: 30upx;
 		font-weight: 800;
 	}
-	.hotel_place{
+
+	.hotel_place {
 		display: flex;
 		align-items: center;
 		padding-top: 20upx;
 		border-bottom: 1px solid #DDDDDD;
-		padding-bottom: 20upx;
+		padding-bottom: 5upx;
 	}
-	.hotel_place_txt{
+
+	.hotel_place_txt {
 		font-size: 14px;
 		width: 65%;
-		padding-left: 20upx;
+		/* padding-left: 20upx; */
 	}
-	.hotel_place_con{
+
+	.hotel_place_con {
 		width: 35%;
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
 	}
-	.hotel_place_con_btn{
+
+	.hotel_place_con_btn {
 		height: 50upx;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
-	.hotel_place_con_btn img{
-		width: 30upx;
-		height: 30upx;
+
+	.hotel_place_con_btn img {
+		width: 33upx;
+		height: 33upx;
 	}
-	.hotel_introduce{
+	.hotel_place_con_btn text{
+		color:#6ba5c5;
+		font-size:20upx ;
+	}
+	.hotel_introduce {
 		padding: 20upx;
 		font-size: 14px;
 		border-bottom: 1px solid #DDDDDD;
 	}
-	.hotel_introduce text{
+
+	.hotel_introduce text {
 		/* word-break: keep-all; */
 		word-wrap: break-word;
+		line-height: 48upx;
+		color: #6d6d6d;
 	}
-	.hotel_infrastructure{
+
+	.hotel_infrastructure {
 		width: 100%;
 		margin-top: 20upx;
 	}
-	.hotel_infrastructure h4{
+
+	.hotel_infrastructure h4 {
+		line-height: 70upx;
 		text-align: left;
 		text-indent: 20upx;
 		margin-bottom: 10upx;
 	}
-	.hotel_infrastructure_list{
+
+	.hotel_infrastructure_list {
 		display: flex;
-		align-items:center;
+		align-items: center;
 		justify-content: space-around;
 	}
-	.hotel_infrastructure_list view{
+
+	.hotel_infrastructure_list view {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		width: 24%;
 	}
-	.hotel_infrastructure_list .hotel_infrastructure_img{
+
+	.hotel_infrastructure_list .hotel_infrastructure_img {
 		width: 40upx;
 		height: 40upx;
+		margin-bottom: 10upx;
 	}
-	.hotel_infrastructure_list view text{
+
+	.hotel_infrastructure_list view text {
 		word-break: break-all;
 		text-overflow: ellipsis;
 		display: -webkit-box;
-		-webkit-box-orient: vertical; 
-		-webkit-line-clamp:1;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 1;
 		overflow: hidden;
 	}
-	.hotel_info{
+
+	.hotel_info {
 		margin-top: 20upx;
 		font-weight: 800;
 	}
-	.hotel_info view text{
+
+	.hotel_info view text {
+		line-height: 50upx;
 		font-weight: normal;
 		padding-left: 10upx;
 	}
-	.hotel_infrastructure .hotel_hj{
+
+	.hotel_infrastructure .hotel_hj {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 	}
-	.hotel_infrastructure .hotel_hj img{
+
+	.hotel_infrastructure .hotel_hj img {
 		width: 220upx;
 		height: 190upx;
 		border-radius: 10upx;
 	}
-	.hotel_room{
+
+	.hotel_room {
 		width: 100%;
 		padding: 20upx;
 	}
-	.hotel_room h4{
+
+	.hotel_room h4 {
 		line-height: 60upx;
 		border-bottom: 2px solid #ff4040;
 		width: 130upx;
 		text-align: center;
 		margin-bottom: 15upx;
 	}
-	.hotel_room_list{
-		width: 100% ;
+
+	.hotel_room_list {
+		width: 100%;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 		flex-direction: column;
 	}
-	.hotel_room_list_menu{
-		width : 100% ;
+
+	.hotel_room_list_menu {
+		width: 100%;
 		display: flex;
 		align-items: center;
 	}
-	.hotel_room_list_menu view{
+
+	.hotel_room_list_menu view {
 		padding: 4upx 8upx;
 		background: #f8f8f8;
 		border-radius: 2upx;
 		margin: 4upx 8upx;
 	}
-	.hotel_room_list_info{
+
+	.hotel_room_list_info {
 		list-style: none;
 		padding: 15upx;
 	}
-	.hotel_room_list_info li{
+
+	.hotel_room_list_info li {
 		display: flex;
 		align-items: center;
 		margin: 26upx 0;
 	}
-	.hotel_room_list_info img{
+
+	.hotel_room_list_info img {
 		width: 150upx;
 		height: 150upx;
 		border-radius: 10upx;
 		margin-right: 30upx;
 	}
-	.hotel_room_info{
+
+	.hotel_room_info {
 		display: flex;
 		width: calc(100% - 180upx);
 		justify-content: space-between;
 		align-items: center;
 	}
-	.hotel_room_info img{
+
+	.hotel_room_info img {
 		width: 38upx;
 		height: 38upx;
 	}

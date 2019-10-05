@@ -109,7 +109,7 @@
 			<h4>小雷户县软面(科技路店)</h4>
 			<view class="meal_shop_title">
 				<view class="meal_shop_title_left">
-					月消费:500+ 
+					月消费:500+
 					<span>标签</span><span>标签</span>
 				</view>
 				<view class="meal_shop_title_right">600m</view>
@@ -127,19 +127,20 @@
 	export default {
 		data() {
 			return {
-				
+
 			}
 		},
 		methods: {
-			
+
 		}
 	}
 </script>
 
 <style>
-	image{
+	image {
 		display: block;
 	}
+
 	.w_container {
 		width: 100%;
 		display: flex;
@@ -147,22 +148,28 @@
 		align-items: center;
 		background-color: #FFFFFF;
 	}
-	.meal_top{
+
+	.meal_top {
 		width: 100%;
 		height: 80upx;
 	}
-	.meal_top_img{
+
+	.meal_top img {
 		width: 100%;
-		heihgt:80upx;
+		heihgt: 80upx;
 	}
-	.meal_menu{
+
+	.meal_menu {
 		height: 170upx;
 	}
-	.meal_menu img{
+
+	.meal_menu img {
 		width: 100%;
-		height: 100%;;
+		height: 100%;
+		;
 	}
-	.meal_list{
+
+	.meal_list {
 		margin-top: 20upx;
 		width: 100%;
 		display: flex;
@@ -171,33 +178,43 @@
 		justify-content: center;
 		padding: 0 20upx;
 	}
-	.meal_list_menu{
-		width: 100% ;
+
+	.meal_list_menu {
+		width: 100%;
 		display: flex;
 		align-items: center;
 	}
-	.meal_list_menu view{
+
+	.meal_list_menu view {
 		padding: 4upx 30upx;
 		margin-bottom: 30upx;
-		
+		color: #929292;
 	}
-	.meal_list_ul{
+
+	.meal_list_menu view:last-child {
+		color: #161616;
+	}
+
+	.meal_list_ul {
 		list-style: none;
-		width: 100% ;
+		width: 100%;
 	}
-	.meal_list_ul li{
+
+	.meal_list_ul li {
 		padding: 20upx;
-		border: 2px solid #DDDDDD;
+		border: 4upx solid #eeeeee;
 		display: flex;
 		align-items: center;
 		margin: 10upx;
 	}
-	.meal_list_ul li .meal_list_ul_img{
+
+	.meal_list_ul li .meal_list_ul_img {
 		width: 190upx;
 		height: 190upx;
 		margin-right: 30upx;
 	}
-	.meal_list_ul_info{
+
+	.meal_list_ul_info {
 		height: 190upx;
 		display: flex;
 		flex-direction: column;
@@ -205,28 +222,33 @@
 		/* align-items: center; */
 		font-size: 26upx;
 	}
-	.meal_list_ul_info_title{
+
+	.meal_list_ul_info_title {
 		font-weight: 800;
 	}
-	.meal_list_ul_info_title span{
+
+	.meal_list_ul_info_title span {
 		background-color: #0081FF;
 		color: #fff;
-		padding: 4upx 8upx;
+		padding: 4upx 15upx;
 		margin: 0 10upx;
 		font-weight: normal;
-		border-radius: 10upx;
+		border-radius: 5upx;
 	}
-	.meal_list_ul_info_place{
+
+	.meal_list_ul_info_place {
 		display: flex;
 		align-items: center;
 		color: #d9d9d9;
 	}
-	.meal_list_ul_info_place img{
+
+	.meal_list_ul_info_place img {
 		width: 20upx;
-		height: 30upx;
+		height: 21upx;
 		margin-right: 10upx;
 	}
-	.meal_list_ul_info_tag span{
+
+	.meal_list_ul_info_tag span {
 		background-color: #D9D9D9;
 		color: #333;
 		padding: 4upx 8upx;
@@ -234,42 +256,48 @@
 		font-weight: normal;
 		border-radius: 10upx;
 	}
-	.meal_list_ul_info_msg{
+
+	.meal_list_ul_info_msg {
 		color: #FF4040;
 	}
-	.meal_shop{
-		width:calc(100% - 60upx);
+
+	.meal_shop {
+		width: calc(100% - 60upx);
 		margin: 20upx;
 		border: 2px solid #DDDDDD;
-		padding:20upx;
+		padding: 20upx;
 	}
-	.meal_shop_title{
+
+	.meal_shop_title {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		margin-top: 20upx;
 	}
-	.meal_shop_title_left{
+
+	.meal_shop_title_left {
 		font-size: 24upx;
 	}
-	.meal_shop_title span{
+
+	.meal_shop_title span {
 		background-color: #0081FF;
 		border-radius: 10upx;
 		color: #FFFFFF;
-		padding: 4upx 8upx;
+		padding: 4upx 10upx;
 		margin: 0 20upx;
 	}
-	.meal_shop_list{
+
+	.meal_shop_list {
 		margin-top: 20upx;
 		width: 100%;
 		display: flex;
 		align-items: center;
-		justify-content: space-around ;
+		justify-content: space-around;
 	}
-	.meal_shop_list img{
+
+	.meal_shop_list img {
 		width: 30%;
 		height: 180upx;
 		border-radius: 10upx;
 	}
 </style>
-
