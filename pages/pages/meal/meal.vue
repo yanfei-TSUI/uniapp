@@ -20,7 +20,7 @@
 					<view class="meal_list_ul_info">
 						<view class="meal_list_ul_info_title">米旗(枫叶新都市) <span>标签</span><span>标签</span></view>
 						<view class="meal_list_ul_info_place">
-							<img src="../../../static/icon/餐饮美食/定位.png" alt="">
+							<img src="../../../static/icon/餐饮美食/address_mark.png">
 							<text>快乐柠檬(西安大都荟店)</text>
 							<text class="juli">681m</text>
 							<text class="more_info">&gt;</text>
@@ -40,7 +40,7 @@
 					<view class="meal_list_ul_info">
 						<view class="meal_list_ul_info_title">米旗(枫叶新都市) <span>标签</span><span>标签</span></view>
 						<view class="meal_list_ul_info_place">
-							<img src="../../../static/icon/餐饮美食/定位.png" alt="">
+							<img src="../../../static/icon/餐饮美食/address_mark.png">
 							<text>快乐柠檬(西安大都荟店)</text>
 							<text class="juli">681m</text>
 							<text class="more_info">&gt;</text>
@@ -60,7 +60,7 @@
 					<view class="meal_list_ul_info">
 						<view class="meal_list_ul_info_title">米旗(枫叶新都市) <span>标签</span><span>标签</span></view>
 						<view class="meal_list_ul_info_place">
-							<img src="../../../static/icon/餐饮美食/定位.png" alt="">
+							<img src="../../../static/icon/餐饮美食/address_mark.png">
 							<text>快乐柠檬(西安大都荟店)</text>
 							<text class="juli">681m</text>
 							<text class="more_info">&gt;</text>
@@ -176,7 +176,7 @@
 
 	.meal_list_ul li {
 		padding: 20upx;
-		border: 4upx solid #eeeeee;
+		border: 4upx solid #f6f6f6;
 		display: flex;
 		align-items: center;
 		margin: 10upx;
@@ -219,8 +219,8 @@
 	}
 
 	.meal_list_ul_info_place img {
-		width: 20upx;
-		height: 21upx;
+		width: 24upx;
+		height: 24upx;
 		margin-right: 10upx;
 	}
 
@@ -234,7 +234,7 @@
 	}
 
 	.meal_list_ul_info_tag span {
-		background-color: #D9D9D9;
+		background-color: #F0F0F0;
 		color: #333;
 		padding: 4upx 8upx;
 		margin: 0 10upx;
@@ -250,7 +250,7 @@
 	.meal_shop {
 		width: calc(100% - 60upx);
 		margin: 20upx;
-		border: 2px solid #DDDDDD;
+		border: 2px solid #F6F6F6;
 		padding: 20upx;
 	}
 
