@@ -239,6 +239,11 @@
 		padding: 0 20upx;
 	}
 
+	.i_address_top {
+		display: flex;
+		align-items: center;
+	}
+
 	.i_address_top image {
 		width: 26upx;
 		height: 24upx;
@@ -373,8 +378,9 @@
 		display: flex;
 		align-items: center;
 		font-size: 24upx;
-		margin-top:15upx
+		margin-top: 15upx
 	}
+
 	.i_price {
 		font-size: 30upx;
 		color: #ed7a72;
