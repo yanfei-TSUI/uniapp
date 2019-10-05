@@ -1,7 +1,9 @@
 <template>
 	<view class="w_container">
 		<view class="meal_top">
-			<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/餐饮列表切片_01.gif" alt="">
+			<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/back1.png" alt="">
+			<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/search1.png" alt="">
+			<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/more2.png" alt="">
 		</view>
 		<view class="meal_menu">
 			<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/餐饮列表切片_02.gif" alt="">
@@ -20,6 +22,8 @@
 						<view class="meal_list_ul_info_place">
 							<img src="../../../static/icon/餐饮美食/定位.png" alt="">
 							<text>快乐柠檬(西安大都荟店)</text>
+							<text class="juli">681m</text>
+							<text class="more_info">&gt;</text>
 						</view>
 						<view class="meal_list_ul_info_tag">
 							<span>WIFI</span>
@@ -38,6 +42,8 @@
 						<view class="meal_list_ul_info_place">
 							<img src="../../../static/icon/餐饮美食/定位.png" alt="">
 							<text>快乐柠檬(西安大都荟店)</text>
+							<text class="juli">681m</text>
+							<text class="more_info">&gt;</text>
 						</view>
 						<view class="meal_list_ul_info_tag">
 							<span>WIFI</span>
@@ -56,42 +62,8 @@
 						<view class="meal_list_ul_info_place">
 							<img src="../../../static/icon/餐饮美食/定位.png" alt="">
 							<text>快乐柠檬(西安大都荟店)</text>
-						</view>
-						<view class="meal_list_ul_info_tag">
-							<span>WIFI</span>
-							<span>品种丰富</span>
-							<span>好美味</span>
-						</view>
-						<view class="meal_list_ul_info_msg">
-							今天到店消费59次
-						</view>
-					</view>
-				</li>
-				<li>
-					<img class="meal_list_ul_img" src="../../../static/icon/餐饮美食/餐饮列表/miqi.jpg" alt="">
-					<view class="meal_list_ul_info">
-						<view class="meal_list_ul_info_title">米旗(枫叶新都市) <span>标签</span><span>标签</span></view>
-						<view class="meal_list_ul_info_place">
-							<img src="../../../static/icon/餐饮美食/定位.png" alt="">
-							<text>快乐柠檬(西安大都荟店)</text>
-						</view>
-						<view class="meal_list_ul_info_tag">
-							<span>WIFI</span>
-							<span>品种丰富</span>
-							<span>好美味</span>
-						</view>
-						<view class="meal_list_ul_info_msg">
-							今天到店消费59次
-						</view>
-					</view>
-				</li>
-				<li>
-					<img class="meal_list_ul_img" src="../../../static/icon/餐饮美食/餐饮列表/miqi.jpg" alt="">
-					<view class="meal_list_ul_info">
-						<view class="meal_list_ul_info_title">米旗(枫叶新都市) <span>标签</span><span>标签</span></view>
-						<view class="meal_list_ul_info_place">
-							<img src="../../../static/icon/餐饮美食/定位.png" alt="">
-							<text>快乐柠檬(西安大都荟店)</text>
+							<text class="juli">681m</text>
+							<text class="more_info">&gt;</text>
 						</view>
 						<view class="meal_list_ul_info_tag">
 							<span>WIFI</span>
@@ -150,13 +122,15 @@
 	}
 
 	.meal_top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		width: 100%;
-		height: 80upx;
+		height: 110upx;
 	}
 
 	.meal_top img {
-		width: 100%;
-		heihgt: 80upx;
+		height: 80%;
 	}
 
 	.meal_menu {
@@ -229,8 +203,9 @@
 
 	.meal_list_ul_info_title span {
 		background-color: #0081FF;
+		font-size: 12upx;
 		color: #fff;
-		padding: 4upx 15upx;
+		padding: 4upx 10upx;
 		margin: 0 10upx;
 		font-weight: normal;
 		border-radius: 5upx;
@@ -238,14 +213,24 @@
 
 	.meal_list_ul_info_place {
 		display: flex;
+		justify-content: space-between;
 		align-items: center;
-		color: #d9d9d9;
+		color: #bebebe;
 	}
 
 	.meal_list_ul_info_place img {
 		width: 20upx;
 		height: 21upx;
 		margin-right: 10upx;
+	}
+
+	.juli {
+		color: #acacac;
+		padding: 0 5upx 0 20upx;
+	}
+
+	.more_info {
+		color: #585858;
 	}
 
 	.meal_list_ul_info_tag span {
@@ -259,6 +244,7 @@
 
 	.meal_list_ul_info_msg {
 		color: #FF4040;
+		font-size: 12upx;
 	}
 
 	.meal_shop {

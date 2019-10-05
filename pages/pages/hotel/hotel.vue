@@ -2,9 +2,6 @@
 	<view class="w_container">
 		<view class="banner">
 			<image class="bannerImg" src="../../../static/icon/酒店/酒店详细页/酒店切图/微信图片_20191001150140_01.gif" mode=""></image>
-			<view class="banner_menu">
-
-			</view>
 		</view>
 		<view class="introduce_con df">
 			<view class="introduce_tit">
