@@ -326,8 +326,8 @@
 		border-top-right-radius: 14upx;
 		border-top-left-radius: 14upx;
 		border-bottom-right-radius: 14upx;
-		top: -10upx;
-		left: 65upx;
+		top: -15upx;
+		left: 45upx;
 	}
 
 	.foods_img {

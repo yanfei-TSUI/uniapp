@@ -153,13 +153,13 @@
 	}
 
 	.pay_item {
-		color: #f47c38;
+		color: #ababab;
 		font-size: 30upx;
 		margin-top: 60upx;
 	}
 
 	.pay_item text {
-		color: #ababab;
+		color: #f47c38;
 		padding-left: 30upx;
 		line-height: 40upx;
 	}

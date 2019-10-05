@@ -218,12 +218,13 @@
 
 	.index_header {
 		width: 100%;
-		height: 408upx;
+		height: 400upx;
 		background: url('~@/static/icon/背景图.png') no-repeat center;
 	}
 
 	.i_top {
 		display: flex;
+		padding-top: 90upx;
 		height: 110upx;
 		justify-content: center;
 		align-items: center;
@@ -262,7 +263,7 @@
 		width: 400upx;
 		height: 70upx;
 		background: #FFFFFF;
-		border-radius: 10upx;
+		border-radius: 15upx;
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
@@ -304,7 +305,7 @@
 		justify-content: center;
 		flex-wrap: wrap;
 		position: absolute;
-		top: 132upx;
+		top: 162upx;
 	}
 
 	.i_nav_con {
@@ -344,10 +345,11 @@
 		margin-top: 20upx;
 		padding: 20upx;
 		display: flex;
+		border: 4upx solid #F9F9F9;
 	}
 
 	.pro_left {
-		width: 235upx;
+		width: 205upx;
 	}
 
 	.pro_left image {

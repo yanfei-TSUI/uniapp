@@ -13,6 +13,9 @@
 				消费1000元获得100积分
 			</view> -->
 		</view>
+		<view class="one_words">
+			<text>美联英语美联英语美联英语英语美联英语美联英语英语美英语（宏发中心）</text>
+		</view>
 		<view class="show_img df threeImg">
 			<image src="../../static/icon/教育培训/教育培训/教学环境01.png" mode=""></image>
 			<image src="../../static/icon/教育培训/教育培训/教学环境02.png" mode=""></image>
@@ -312,5 +315,11 @@
 		width: 127upx;
 		height: 146upx;
 		margin: 0 5upx;
+	}
+	.one_words{
+		width: 100%;
+		padding-left: 20upx;
+		font-size: 20upx;
+		color: #929292;
 	}
 </style>

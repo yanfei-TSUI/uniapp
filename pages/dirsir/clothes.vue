@@ -157,6 +157,7 @@
 
 	.introduce_tit {
 		font-size: 38upx;
+		font-weight: 900;
 	}
 
 	.introduce_youhui {
