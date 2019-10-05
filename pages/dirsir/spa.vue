@@ -104,6 +104,9 @@
 </script>
 
 <style>
+	page{
+		background: #FFFFFF;
+	}
 	image {
 		display: block;
 	}
@@ -194,7 +197,7 @@
 	.line {
 		width: 700upx;
 		height: 4upx;
-		background: #FFFFFF;
+		background: #EEEEEE;
 		margin: 0 auto;
 		margin: 20upx 0;
 	}

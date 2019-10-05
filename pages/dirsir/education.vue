@@ -73,6 +73,7 @@
 				</view>
 			</view>
 		</view>
+		<view class="line"></view>
 		<view class="more_ke">
 			<text>更多课程</text>
 			<image src="../../static/icon/教育培训/教育培训/更多.png" mode=""></image>
@@ -125,6 +126,9 @@
 </script>
 
 <style>
+	page{
+		background: #FFFFFF;
+	}
 	image {
 		display: block;
 		width: 50upx;
@@ -198,7 +202,7 @@
 	.line {
 		width: 700upx;
 		height: 4upx;
-		background: #FFFFFF;
+		background: #EEEEEE;
 		margin: 0 auto;
 		margin: 20upx 0;
 	}

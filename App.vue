@@ -11,7 +11,7 @@
 		},
 		onLaunch: function() {
 			let userInfo = uni.getStorageSync('userInfo') || '';
-			if(userInfo.id){
+			if (userInfo.id) {
 				//更新登陆状态
 				uni.getStorage({
 					key: 'userInfo',
@@ -20,7 +20,7 @@
 					}
 				});
 			}
-			
+
 		},
 		onShow: function() {
 			console.log('App Show')
@@ -34,6 +34,7 @@
 <style lang='scss'>
 	@import "colorui/main.css";
 	@import "colorui/icon.css";
+
 	/*
 		全局公共样式和字体图标
 	*/
@@ -366,6 +367,7 @@
 	video {
 		box-sizing: border-box;
 	}
+
 	/* 骨架屏替代方案 */
 	.Skeleton {
 		background: #f3f3f3;
@@ -449,5 +451,17 @@
 
 	.placeholder {
 		color: #999999;
+	}
+
+	page {
+		background: #FFFFFF;
+	}
+
+	.line {
+		width: 700upx;
+		height: 4upx;
+		background: #EEEEEE;
+		margin: 0 auto;
+		margin: 20upx 0;
 	}
 </style>

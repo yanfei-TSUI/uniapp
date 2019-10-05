@@ -104,13 +104,16 @@
 </script>
 
 <style>
+	page{
+		background: #FFFFFF;
+	}
 	image {
 		display: block;
 	}
 
 	.line {
 		width: 100%;
-		border: 2upx solid #DDDDDD;
+		border: 2upx solid #EEEEEE;
 		margin: 20upx 0;
 	}
 
@@ -335,6 +338,7 @@
 	.foods_intro {
 		padding-left: 20upx;
 		color: #b3b3b3;
+		/* font-size: 20upx; */
 	}
 
 	.shop_logo {
