@@ -1,16 +1,45 @@
 <template>
 	<view class="w_container">
 		<view class="meal_top">
-			<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/back1.png" alt="">
-			<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/search1.png" alt="">
-			<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/more2.png" alt="">
+			<view class="">
+				<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/back1.png" alt="">
+			</view>
+			<view class="m_search">
+				<image src="../../../static/icon/首页/搜素.png"></image>
+				<input type="text">
+			</view>
+			<view class="">
+				<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/more2.png" alt="">
+			</view>
 		</view>
 		<view class="meal_menu">
-			<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/餐饮列表切片_02.gif" alt="">
+			<view class="menu_con">
+				<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/food1.png" mode=""></image>
+				<text>全部</text>
+			</view>
+			<view class="menu_con">
+				<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
+				<text>米粉面馆</text>
+			</view>
+			<view class="menu_con">
+				<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
+				<text>米粉面馆</text>
+			</view>
+			<view class="menu_con">
+				<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
+				<text>米粉面馆</text>
+			</view>
+			<view class="menu_con">
+				<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
+				<text>米粉面馆</text>
+			</view>
 		</view>
 		<view class="meal_list">
 			<view class="meal_list_menu">
-				<view>筛选</view>
+				<view class="select_foods">
+					<text>筛选</text>
+					<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/down.png"></image>
+				</view>
 				<view>销量</view>
 				<view>距离</view>
 			</view>
@@ -109,10 +138,6 @@
 </script>
 
 <style>
-	image {
-		display: block;
-	}
-
 	.w_container {
 		width: 100%;
 		display: flex;
@@ -134,14 +159,33 @@
 	}
 
 	.meal_menu {
-		height: 170upx;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100%;
 	}
 
-	.meal_menu img {
-		width: 100%;
-		height: 100%;
-		;
+	.menu_con {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 15upx;
 	}
+
+	.menu_con image {
+		width: 112upx;
+		height: 112upx;
+	}
+
+	.menu_con text {
+		color: #9c9c9c;
+	}
+
+	.menu_con:first-child text {
+		color: #e9bb4f;
+	}
+
 
 	.meal_list {
 		margin-top: 20upx;
@@ -157,16 +201,18 @@
 		width: 100%;
 		display: flex;
 		align-items: center;
+		padding-left: 10upx;
 	}
 
 	.meal_list_menu view {
 		padding: 4upx 30upx;
-		margin-bottom: 30upx;
+		margin-bottom: 20upx;
 		color: #929292;
 	}
 
 	.meal_list_menu view:last-child {
 		color: #161616;
+		font-weight: 900;
 	}
 
 	.meal_list_ul {
@@ -285,5 +331,37 @@
 		width: 30%;
 		height: 180upx;
 		border-radius: 10upx;
+	}
+
+	.select_foods {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.select_foods image {
+		width: 16upx;
+		height: 13upx;
+		margin: 10upx 5upx 0;
+	}
+
+	.m_search {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 60upx;
+		background: #f4f5f0;
+		border-radius: 30upx;
+	}
+
+	.m_search image {
+		width: 30upx;
+		height: 30upx;
+		opacity: 1 !important;
+		margin-left: 20upx;
+		vertical-align: middle;
+	}
+	.m_search input{
+		padding-left: 10upx;
 	}
 </style>
