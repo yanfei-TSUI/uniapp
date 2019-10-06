@@ -1,10 +1,10 @@
 <template>
 	<view class="w_container">
-		<!-- 		<view class="w_navtab">
+		<view class="w_navtab">
 			<image src="../../static/back.png" mode=""></image>
-			<text>巴黎婚纱摄影（公明总店）</text>
+			<text></text>
 			<image src="../../static/More.png" mode=""></image>
-		</view> -->
+		</view>
 		<view class="banner">
 			<image class="bannerImg" src="../../static/icon/休闲娱乐/休闲娱乐_02.png" mode=""></image>
 		</view>
@@ -104,9 +104,10 @@
 </script>
 
 <style>
-	page{
+	page {
 		background: #FFFFFF;
 	}
+
 	image {
 		display: block;
 	}
@@ -123,22 +124,27 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		position: relative;
 	}
 
 	.w_navtab {
 		width: 100%;
-		height: 75upx;
-		background: #FFFFFF;
+		height: 100upx;
+		background: transparent;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		padding: 0 22upx;
 		font-weight: 900;
+		position: absolute;
+		top: 0;
+		nav-left: 0;
+		z-index: 2;
 	}
 
 	.w_navtab image {
-		width: 42upx;
-		height: 42upx;
+		width: 46upx;
+		height: 46upx;
 	}
 
 	.banner image {
@@ -148,21 +154,23 @@
 
 	.introduce_con {
 		width: 700upx;
-		height: 88upx;
+		/* height: 68upx; */
 		align-items: center;
 		justify-content: space-between;
+		margin-top: 20upx;
 	}
 
 	.introduce_tit {
 		font-size: 38upx;
+		font-weight: 900;
 	}
 
 	.introduce_youhui {
 		width: 180upx;
-		height: 32upx;
-		line-height: 32upx;
+		height: 44upx;
+		line-height: 44upx;
 		border-radius: 16upx;
-		font-size: 16upx;
+		font-size: 24upx;
 		color: #FFFFFF;
 		background: #f48a3c;
 		margin-left: 70upx;
@@ -171,11 +179,11 @@
 
 	.spa_time_con {
 		width: 700upx;
-		height: 130upx;
+		height: 100upx;
 	}
 
 	.spa_time {
-		padding: 20upx 0;
+		padding: 0 0 20upx 0;
 		font-size: 28upx;
 		color: #5f5f5f;
 		font-weight: 900;
@@ -197,9 +205,13 @@
 	.line {
 		width: 700upx;
 		height: 4upx;
-		background: #EEEEEE;
+		background: #f7f7f7;
 		margin: 0 auto;
 		margin: 20upx 0;
+	}
+
+	.daohang image:first-child {
+		margin-top: -45upx;
 	}
 
 	.daohang image {
@@ -211,6 +223,8 @@
 	.w_address {
 		width: 512upx;
 		margin-right: 10upx;
+		height: 100upx;
+		line-height: 50upx;
 	}
 
 	.w_address_car {
@@ -295,8 +309,9 @@
 		justify-content: space-between;
 		align-items: center;
 	}
-	.more_tit{
-		width:155upx;
+
+	.more_tit {
+		width: 155upx;
 		height: 45upx;
 		line-height: 45upx;
 		background: #e6610c;
@@ -305,40 +320,48 @@
 		border-radius: 22upx;
 		text-align: center;
 	}
-	.more_phone{
+
+	.more_phone {
 		justify-content: flex-end;
 	}
-	.more_phone image{
+
+	.more_phone image {
 		width: 26upx;
 		height: 26upx;
 		margin-right: 5upx;
 	}
-	.more_spa{
+
+	.more_spa {
 		display: flex;
 		width: 700upx;
 		height: 116upx;
 		justify-content: space-between;
 		align-items: center;
 	}
-	.more_spa_right{
+
+	.more_spa_right {
 		display: flex;
 		align-items: center;
 	}
-	.more_spa_right image{
+
+	.more_spa_right image {
 		width: 123upx;
 		height: 56upx;
 	}
-	.all_time{
+
+	.all_time {
 		line-height: 50upx;
 		font-size: 30upx;
 		color: #4f4f4f;
 		font-weight: 900;
 	}
-	.little_tit{
+
+	.little_tit {
 		font-size: 26upx;
 		color: #989898;
 	}
-	.spa_price{
+
+	.spa_price {
 		font-size: 30upx;
 		color: #f47c38;
 		font-weight: 900;
