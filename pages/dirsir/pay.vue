@@ -169,7 +169,7 @@
 		flex-wrap: wrap;
 		width: 410upx;
 		height: 150upx;
-		margin-top: 110upx;
+		margin: 110upx 0 55upx;
 	}
 
 	.more_serve image {
