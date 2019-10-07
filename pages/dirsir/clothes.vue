@@ -27,17 +27,17 @@
 		</view>
 		<view class="line"></view>
 		<view class="daohang df">
-			<image src="../../static/address.png" mode=""></image>
-			<text class="w_address">西安市雁塔区丈八沟街道科技四路团结南路中国邮政银行对面</text>
+			<image class="address_img" src="/static/address.png" mode=""></image>
+			<text class="w_address">丈八沟街道科技四路团结南路中国邮政银行对面</text>
 			<view class="w_address_car df">
 				<view class="didi">
 					打车
 				</view>
-				<image src="../../static/icon/婚纱摄影/婚纱摄影/打车.png" mode=""></image>
-				<image src="../../static/icon/婚纱摄影/婚纱摄影/电话.png" mode=""></image>
+				<image src="/static/icon/婚纱摄影/婚纱摄影/打车.png" mode=""></image>
+				<image src="/static/icon/婚纱摄影/婚纱摄影/电话.png" mode=""></image>
 			</view>
 		</view>
-		<view class="line"></view>
+		<!-- <view class="line"></view> -->
 		<view class="in_shop">
 			<view class="show_con">
 				店内环境
@@ -49,14 +49,14 @@
 			<image src="../../static/icon/服装/006.png" mode=""></image>
 			<image src="../../static/icon/服装/005.png" mode=""></image>
 		</view>
-		<view class="line"></view>
+		<!-- <view class="line"></view> -->
 		<view class="more_pro">
 			<view class="more_tit">
 				更多产品
 			</view>
 		</view>
-		<view class="line"></view>
-		<view class="show_img df">
+		<!-- <view class="line"></view> -->
+		<view class="show_img show_img_two df">
 			<view class="img_left_con">
 				<image src="../../static/icon/服装/009.png" mode=""></image>
 				<text class="active">工装，男装小...</text>
@@ -211,17 +211,24 @@
 		margin-left: 20upx;
 	}
 
+	.address_img {
+		margin-top: -30upx;
+		margin-right: 10upx;
+	}
+
 	.w_address {
-		width: 512upx;
+		width: 340upx;
 		margin-right: 10upx;
 	}
 
 	.w_address_car {
-		justify-content: flex-start;
+		justify-content: flex-end;
 		flex: 1;
 		height: 52upx;
-		border-left: 4upx solid #DDDDDD;
+		/* border-left: 4upx solid #DDDDDD; */
 		position: relative;
+		padding-right: 30upx;
+		margin-left: 10upx;
 	}
 
 	.didi {
@@ -236,7 +243,7 @@
 		border-top-left-radius: 14upx;
 		border-bottom-right-radius: 14upx;
 		top: -10upx;
-		left: 65upx;
+		right: 116upx;
 	}
 
 	.w_address_car image {
@@ -272,6 +279,12 @@
 	.show_img {
 		flex-wrap: wrap;
 		width: 730upx;
+		padding-bottom: 10upx;
+		border-bottom: 12upx solid #ededed;
+	}
+
+	.show_img_two {
+		border-bottom: 0upx solid #efedee;
 	}
 
 	.show_img image {
@@ -297,6 +310,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		padding: 20upx 0 30upx 0;
 	}
 
 	.more_tit {
