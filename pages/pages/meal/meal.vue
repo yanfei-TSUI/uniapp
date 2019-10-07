@@ -107,7 +107,10 @@
 			</view>
 		</view>
 		<view class="meal_shop">
-			<h4>小雷户县软面(科技路店)</h4>
+			<view class="shop_tit">
+				<h4>小雷户县软面(科技路店)</h4>
+				<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/show.png" mode=""></image>
+			</view>
 			<view class="meal_shop_title">
 				<view class="meal_shop_title_left">
 					月消费:500+
@@ -289,7 +292,7 @@
 	}
 
 	.meal_list_ul_info_msg {
-		color: #FF4040;
+		color: #703d42;
 		font-size: 12upx;
 	}
 
@@ -363,5 +366,14 @@
 	}
 	.m_search input{
 		padding-left: 10upx;
+	}
+	.shop_tit{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.shop_tit image{
+		width: 40upx;
+		height: 30upx;
 	}
 </style>
