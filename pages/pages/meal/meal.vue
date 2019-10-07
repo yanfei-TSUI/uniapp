@@ -2,35 +2,35 @@
 	<view class="w_container">
 		<view class="meal_top">
 			<view class="">
-				<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/back1.png" alt="">
+				<img src="/static/icon/餐饮美食/餐饮列表/餐饮切片/back1.png" alt="">
 			</view>
 			<view class="m_search">
-				<image src="../../../static/icon/首页/搜素.png"></image>
+				<image src="/static/icon/首页/搜素.png"></image>
 				<input type="text">
 			</view>
 			<view class="">
-				<img src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/more2.png" alt="">
+				<img src="/static/icon/餐饮美食/餐饮列表/餐饮切片/more2.png" alt="">
 			</view>
 		</view>
 		<view class="meal_menu">
 			<view class="menu_con">
-				<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/food1.png" mode=""></image>
+				<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/food1.png" mode=""></image>
 				<text>全部</text>
 			</view>
 			<view class="menu_con">
-				<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
+				<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
 				<text>米粉面馆</text>
 			</view>
 			<view class="menu_con">
-				<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
+				<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
 				<text>米粉面馆</text>
 			</view>
 			<view class="menu_con">
-				<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
+				<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
 				<text>米粉面馆</text>
 			</view>
 			<view class="menu_con">
-				<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
+				<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/food2.png" mode=""></image>
 				<text>米粉面馆</text>
 			</view>
 		</view>
@@ -38,18 +38,18 @@
 			<view class="meal_list_menu">
 				<view class="select_foods">
 					<text>筛选</text>
-					<image src="../../../static/icon/餐饮美食/餐饮列表/餐饮切片/down.png"></image>
+					<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/down.png"></image>
 				</view>
 				<view>销量</view>
 				<view>距离</view>
 			</view>
 			<view class="meal_list_ul">
 				<li>
-					<img class="meal_list_ul_img" src="../../../static/icon/餐饮美食/餐饮列表/miqi.jpg" alt="">
+					<img class="meal_list_ul_img" src="/static/icon/餐饮美食/餐饮列表/miqi.jpg" alt="">
 					<view class="meal_list_ul_info">
 						<view class="meal_list_ul_info_title">米旗(枫叶新都市) <span>标签</span><span>标签</span></view>
 						<view class="meal_list_ul_info_place">
-							<img src="../../../static/icon/餐饮美食/address_mark.png">
+							<img src="/static/icon/餐饮美食/address_mark.png">
 							<text>快乐柠檬(西安大都荟店)</text>
 							<text class="juli">681m</text>
 							<text class="more_info">&gt;</text>
@@ -65,11 +65,11 @@
 					</view>
 				</li>
 				<li>
-					<img class="meal_list_ul_img" src="../../../static/icon/餐饮美食/餐饮列表/miqi.jpg" alt="">
+					<img class="meal_list_ul_img" src="/static/icon/餐饮美食/餐饮列表/miqi.jpg" alt="">
 					<view class="meal_list_ul_info">
 						<view class="meal_list_ul_info_title">米旗(枫叶新都市) <span>标签</span><span>标签</span></view>
 						<view class="meal_list_ul_info_place">
-							<img src="../../../static/icon/餐饮美食/address_mark.png">
+							<img src="/static/icon/餐饮美食/address_mark.png">
 							<text>快乐柠檬(西安大都荟店)</text>
 							<text class="juli">681m</text>
 							<text class="more_info">&gt;</text>
@@ -85,11 +85,11 @@
 					</view>
 				</li>
 				<li>
-					<img class="meal_list_ul_img" src="../../../static/icon/餐饮美食/餐饮列表/miqi.jpg" alt="">
+					<img class="meal_list_ul_img" src="/static/icon/餐饮美食/餐饮列表/miqi.jpg" alt="">
 					<view class="meal_list_ul_info">
 						<view class="meal_list_ul_info_title">米旗(枫叶新都市) <span>标签</span><span>标签</span></view>
 						<view class="meal_list_ul_info_place">
-							<img src="../../../static/icon/餐饮美食/address_mark.png">
+							<img src="/static/icon/餐饮美食/address_mark.png">
 							<text>快乐柠檬(西安大都荟店)</text>
 							<text class="juli">681m</text>
 							<text class="more_info">&gt;</text>
@@ -119,9 +119,27 @@
 				<view class="meal_shop_title_right">600m</view>
 			</view>
 			<view class="meal_shop_list">
-				<img src="../../../static/icon/餐饮美食/餐饮美食/龙井虾仁.png" alt="">
-				<img src="../../../static/icon/餐饮美食/餐饮美食/外婆红烧肉.png" alt="">
-				<img src="../../../static/icon/餐饮美食/餐饮美食/茶香鸡.png" alt="">
+				<view class="to_left">
+					<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/to_left.png" mode=""></image>
+				</view>
+				<view class="list_con">
+					<img src="/static/icon/餐饮美食/餐饮美食/龙井虾仁.png" alt="">
+					<text>￥19.0</text>
+					<span>招牌三合一</span>
+				</view>
+				<view class="list_con">
+					<img src="/static/icon/餐饮美食/餐饮美食/外婆红烧肉.png" alt="">
+					<text>￥16.0</text>
+					<span>招牌三合一</span>
+				</view>
+				<view class="list_con">
+					<img src="/static/icon/餐饮美食/餐饮美食/茶香鸡.png" alt="">
+					<text>￥16.0</text>
+					<span>招牌三合一</span>
+				</view>
+				<view class="to_right">
+					<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/to_right.png" mode=""></image>
+				</view>
 			</view>
 		</view>
 	</view>
@@ -297,10 +315,10 @@
 	}
 
 	.meal_shop {
-		width: calc(100% - 60upx);
-		margin: 20upx;
+		width: 100%;
+		/* margin: 20upx; */
 		border: 2px solid #F6F6F6;
-		padding: 20upx;
+		/* padding: 20upx; */
 	}
 
 	.meal_shop_title {
@@ -308,6 +326,7 @@
 		justify-content: space-between;
 		align-items: center;
 		margin-top: 20upx;
+		padding: 0 30upx;
 	}
 
 	.meal_shop_title_left {
@@ -328,10 +347,16 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
+		padding: 0 20upx;
 	}
 
-	.meal_shop_list img {
-		width: 30%;
+	.meal_shop_list image {
+		width: 15upx;
+		height: 26upx;
+	}
+
+	.list_con img {
+		width: 204upx;
 		height: 180upx;
 		border-radius: 10upx;
 	}
@@ -364,16 +389,52 @@
 		margin-left: 20upx;
 		vertical-align: middle;
 	}
-	.m_search input{
+
+	.m_search input {
 		padding-left: 10upx;
 	}
-	.shop_tit{
+
+	.shop_tit {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		padding: 20upx 30upx 0 30upx;
 	}
-	.shop_tit image{
+
+	.shop_tit image {
 		width: 40upx;
 		height: 30upx;
+	}
+
+	.meal_shop_title_right {
+		padding: 0 30upx;
+	}
+
+	.list_con {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+
+	.list_con text {
+		font-size: 22upx;
+		color: #FFFFFF;
+		font-weight: 900;
+		position: absolute;
+		top: 135upx;
+	}
+
+	.list_con span {
+		font-size: 22upx;
+		color: #2e2d33;
+		font-weight: 900;
+		margin: 20upx 0;
+	}
+
+	.to_left,
+	.to_right {
+		margin-bottom: 80upx;
 	}
 </style>
