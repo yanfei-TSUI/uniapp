@@ -1,7 +1,7 @@
 <template>
 	<view class="w_container">
 		<view class="w_navtab">
-			<image src="../../static/back.png" mode=""></image>
+			<image src="/static/back.png" mode=""></image>
 			<text>巴黎婚纱摄影（公明总店）</text>
 			<image src="../../static/More.png" mode=""></image>
 		</view>

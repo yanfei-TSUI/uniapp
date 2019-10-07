@@ -2,9 +2,9 @@
 	<view class="i_container">
 		<view class="index_header">
 			<view class="w_navtab">
-				<image src="../../static/back.png" mode=""></image>
+				<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/back2.png" mode=""></image>
 				<text>巴黎婚纱摄影（公明总店）</text>
-				<image src="../../static/More.png" mode=""></image>
+				<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/more1.png" mode=""></image>
 			</view>
 		</view>
 		<view class="i_nav">
@@ -27,7 +27,7 @@
 				<image src="../../static/icon/餐饮美食/餐饮美食/龙井虾仁.png" mode=""></image>
 				<image src="../../static/icon/餐饮美食/餐饮美食/商家环境03.png" mode=""></image>
 			</view>
-			<view class="line"></view>
+			<!-- <view class="line"></view> -->
 			<view class="spa_time_con">
 				<view class="spa_time">
 					<image src="../../static/icon/餐饮美食/商铺.png" mode=""></image>
@@ -42,17 +42,18 @@
 			</view>
 			<view class="line"></view>
 			<view class="daohang df">
-				<image src="../../static/address.png" mode=""></image>
-				<text class="w_address">西安市雁塔区丈八沟街道科技四路团结南路中国邮政银行对面</text>
+				<image class="daohang_img" src="../../static/address.png" mode=""></image>
+				<text class="w_address">雁塔区丈八沟街道科技四路团结南路中国邮政银行对面</text>
 				<view class="w_address_car df">
 					<view class="didi">
 						打车
 					</view>
 					<image src="../../static/icon/婚纱摄影/婚纱摄影/打车.png" mode=""></image>
+					<text>|</text>
 					<image src="../../static/icon/婚纱摄影/婚纱摄影/电话.png" mode=""></image>
 				</view>
 			</view>
-			<view class="line"></view>
+			<!-- <view class="line"></view> -->
 
 			<view class="i_shop">
 				<view class="shop_top">
@@ -104,9 +105,10 @@
 </script>
 
 <style>
-	page{
+	page {
 		background: #FFFFFF;
 	}
+
 	image {
 		display: block;
 	}
@@ -130,6 +132,7 @@
 	}
 
 	.i_container {
+		/* margin-top: 47upx; */
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -230,6 +233,7 @@
 		align-items: center;
 		padding: 0 22upx;
 		font-weight: 900;
+		color: #514318;
 	}
 
 	.w_navtab image {
@@ -251,15 +255,15 @@
 
 	.introduce_youhui {
 		display: inline-block;
-		width: 180upx;
-		height: 32upx;
-		line-height: 32upx;
+		padding: 5upx;
 		border-radius: 16upx;
-		font-size: 16upx;
+		font-size: 24upx;
 		color: #FFFFFF;
 		background: #f48a3c;
-		margin-left: 70upx;
+		margin: 10upx 0;
 		text-align: center;
+		position: absolute;
+		right: 10upx;
 	}
 
 	.spa_time_con {
@@ -296,22 +300,32 @@
 		padding: 0 20upx 0 10upx;
 	}
 
+	.daohang {
+		padding: 0 0 20upx;
+		border-bottom: 8upx solid #f8f8f8;
+		justify-content: space-between;
+	}
+
 	.daohang image {
 		width: 26upx;
 		height: 30upx;
-		margin-left: 20upx;
+		/* margin-left: 20upx; */
+	}
+
+	.daohang_img {
+		margin: -25upx 10upx 0 0;
 	}
 
 	.w_address {
-		width: 512upx;
+		width: 375upx;
 		margin-right: 10upx;
 	}
 
 	.w_address_car {
-		justify-content: flex-start;
+		justify-content: flex-end;
 		flex: 1;
 		height: 52upx;
-		border-left: 4upx solid #DDDDDD;
+		/* border-left: 4upx solid #DDDDDD; */
 		position: relative;
 	}
 
@@ -326,19 +340,31 @@
 		border-top-right-radius: 14upx;
 		border-top-left-radius: 14upx;
 		border-bottom-right-radius: 14upx;
-		top: -15upx;
-		left: 45upx;
+		top: -6upx;
+		right: 80upx;
+	}
+
+	.w_address_car image {
+		width: 40upx;
+		height: 37upx;
+		/* margin-left: 68upx; */
+	}
+	.w_address_car text{
+		margin: 0 34upx;
+		color: #f8f8f8;
 	}
 
 	.foods_img {
 		padding: 0 10upx;
-		margin-top: 10upx;
+		margin-top: 32upx;
 	}
 
 	.foods_intro {
 		padding-left: 20upx;
 		color: #b3b3b3;
-		/* font-size: 20upx; */
+		font-size: 20upx;
+		position: relative;
+		margin-bottom: 20upx;
 	}
 
 	.shop_logo {
@@ -361,5 +387,9 @@
 		font-size: 20upx;
 		text-align: center;
 		margin-right: 20upx;
+	}
+	.huodong{
+		font-size: 30upx;
+		color: #c6c6c6;
 	}
 </style>

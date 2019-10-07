@@ -17,19 +17,19 @@
 			<text>美联英语美联英语美联英语英语美联英语美联英语英语美英语（宏发中心）</text>
 		</view>
 		<view class="show_img df threeImg">
-			<image src="../../static/icon/教育培训/教育培训/教学环境01.png" mode=""></image>
-			<image src="../../static/icon/教育培训/教育培训/教学环境02.png" mode=""></image>
-			<image src="../../static/icon/教育培训/教育培训/教学环境03.png" mode=""></image>
+			<image class="show_pic" src="../../static/icon/教育培训/教育培训/教学环境01.png" mode=""></image>
+			<image class="show_pic" src="../../static/icon/教育培训/教育培训/教学环境02.png" mode=""></image>
+			<image class="show_pic" src="../../static/icon/教育培训/教育培训/教学环境03.png" mode=""></image>
 		</view>
 		<view class="introduce_info">
-			巴黎婚纱，超过200万新人有限推荐，巴黎婚纱，超过200万新人有限推荐，巴黎婚纱，超过200万新人有限推荐，巴黎婚纱，超过200万新人有限推荐，巴黎婚纱，超过200万新人有限推荐，巴黎婚纱，超过200万新人有限推荐，巴黎婚纱，超过200万新人有限推荐，巴黎婚纱，超过200万新人有限推荐，巴黎婚纱.
+			美联国际英语成立于2006年，巴黎婚纱2007年平拍战略升级。美联国际英语成立于2006年，巴黎婚纱2007年平拍战略升级。美联国际英语成立于2006年，巴黎婚纱2007年平拍战略升级。美联国际英语成立于2006年，巴黎婚纱2007年平拍战略升级。美联国际英语成立于2006年，巴黎婚纱2007年平拍战略升级。
 		</view>
 		<view class="shouqi">
 			收起 ∧
 		</view>
 		<view class="line"></view>
 		<view class="daohang df">
-			<image src="../../static/address.png" mode=""></image>
+			<image class="daohangIcon" src="../../static/address.png" mode=""></image>
 			<text class="w_address">西安市雁塔区丈八沟街道科技四路团结南路中国邮政银行对面</text>
 			<view class="w_address_car df">
 				<view class="didi">
@@ -39,89 +39,85 @@
 				<image src="../../static/icon/婚纱摄影/婚纱摄影/电话.png" mode=""></image>
 			</view>
 		</view>
+		<view class="line"></view>
 		<view class="show_con">
 			课程
 		</view>
-		<view class="show_img df">
+		<view class="show_imgs df">
+			<view class="img_left_con">
+				<image class="left_pic" src="../../static/icon/教育培训/教育培训/学生英语.png" mode=""></image>
+				<text class="active">零基础英语</text>
+				<view class="active2">xx 10人一下</view>
+				<view class="count">
+					<text>￥9.9</text>
+				</view>
+			</view>
+			<view class="img_left_con">
+				<image class="left_pic" src="../../static/icon/教育培训/教育培训/学生英语.png" mode=""></image>
+				<text class="active">零基础英语</text>
+				<view class="active2">xx 10人一下</view>
+				<view class="count">
+					<text>￥9.9</text>
+				</view>
+			</view>
 			<view class="img_left_con">
 				<image src="../../static/icon/教育培训/教育培训/学生英语.png" mode=""></image>
-				<text class="active">包邮套餐</text>
-				<view class="active">包邮套餐+送全新婚</view>
+				<text class="active">零基础英语</text>
+				<view class="active2">xx 10人一下</view>
 				<view class="count">
 					<text>￥9.9</text>
 				</view>
 			</view>
-			<view class="img_right_con">
-				<image src="../../static/icon/教育培训/教育培训/零基础英语.png" mode=""></image>
-				<text class="active">包邮套餐</text>
-				<view class="active">包邮套餐+送全新婚纱</view>
-				<view class="count">
-					<text>￥9.9</text>
-				</view>
-			</view>
-			<view class="img_right_con">
-				<image src="../../static/icon/教育培训/教育培训/宝妈英语.png" mode=""></image>
-				<text class="active">包邮套餐</text>
-				<view class="active">包邮套餐+送全新婚纱</view>
-				<view class="count">
-					<text>￥9.9</text>
-				</view>
-			</view>
-			<view class="img_right_con">
-				<image src="../../static/icon/教育培训/教育培训/个人提升英语.png" mode=""></image>
-				<text class="active">包邮套餐</text>
-				<view class="active">包邮套餐+送全新婚纱</view>
+			<view class="img_left_con">
+				<image src="../../static/icon/教育培训/教育培训/学生英语.png" mode=""></image>
+				<text class="active">零基础英语</text>
+				<view class="active2">xx 10人一下</view>
 				<view class="count">
 					<text>￥9.9</text>
 				</view>
 			</view>
 		</view>
-		<view class="line"></view>
 		<view class="more_ke">
 			<text>更多课程</text>
 			<image src="../../static/icon/教育培训/教育培训/更多.png" mode=""></image>
 		</view>
+		<view class="line"></view>
 		<view class="mingshi">
 			<view class="all_tea">
 				名师风采
 			</view>
-			<view class="">
+			<view class="other_tea">
 				全部七位老师&gt;
 			</view>
 		</view>
 
-		<view class="show_img df mingshi">
-			<view class="img_left_con">
-				<image src="../../static/icon/教育培训/教育培训/教师01.png" mode=""></image>
-				<view class="active">包邮套餐</view>
-				<view class="active">包邮套餐</view>
-				<view class="count"><text>￥9.9</text></view>
+		<view class="show_img2 df mingshi">
+			<view class="block_box">
+				<image class="person_pic" src="/static/icon/教育培训/教育培训/教师01.png" mode=""></image>
+				<text class="name">风清扬</text>
+				<text class="dsc">3年教授</text>
+				<text class="kecheng">通用英语</text>
 			</view>
-			<view class="img_left_con">
-				<image src="../../static/icon/教育培训/教育培训/教师02.png" mode=""></image>
-				<view class="active">包邮套餐</view>
-				<view class="active">包邮套餐</view>
-				<view class="count"><text>￥9.9</text></view>
+			<view class="block_box">
+				<image class="person_pic" src="/static/icon/教育培训/教育培训/教师01.png" mode=""></image>
+				<text class="name">风清扬</text>
+				<text class="dsc">3年教授</text>
+				<text class="kecheng">通用英语</text>
 			</view>
-			<view class="img_left_con">
-				<image src="../../static/icon/教育培训/教育培训/教师01.png" mode=""></image>
-				<view class="active">包邮套餐</view>
-				<view class="active">包邮套餐</view>
-				<view class="count"><text>￥9.9</text></view>
+			<view class="block_box">
+				<image class="person_pic" src="/static/icon/教育培训/教育培训/教师01.png" mode=""></image>
+				<text class="name">风清扬</text>
+				<text class="dsc">3年教授</text>
+				<text class="kecheng">通用英语</text>
 			</view>
-			<view class="img_left_con">
-				<image src="../../static/icon/教育培训/教育培训/教师02.png" mode=""></image>
-				<view class="active">包邮套餐</view>
-				<view class="active">包邮套餐</view>
-				<view class="count"><text>￥9.9</text></view>
-			</view>
-			<view class="img_left_con">
-				<image src="../../static/icon/教育培训/教育培训/教师01.png" mode=""></image>
-				<view class="active">包邮套餐</view>
-				<view class="active">包邮套餐</view>
-				<view class="count"><text>￥9.9</text></view>
+			<view class="block_box">
+				<image class="person_pic" src="/static/icon/教育培训/教育培训/教师01.png" mode=""></image>
+				<text class="name">风清扬</text>
+				<text class="dsc">3年教授</text>
+				<text class="kecheng">通用英语</text>
 			</view>
 		</view>
+	<view class="line" style="margin-top:100upx;"></view>
 	</view>
 </template>
 
@@ -159,7 +155,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0 22upx;
+		padding: 0 24upx;
 		font-weight: 900;
 	}
 
@@ -172,10 +168,12 @@
 		height: 88upx;
 		align-items: center;
 		justify-content: flex-start;
-		padding-left: 20upx;
+		padding-left: 24upx;
 	}
 
 	.introduce_tit {
+		color: #2a2a2a;
+		font-weight: 900;
 		font-size: 38upx;
 	}
 
@@ -190,6 +188,47 @@
 		margin-left: 70upx;
 		text-align: center;
 	}
+	.img_left_con{
+		display: flex;
+		flex-direction: column;
+		width: 350upx;
+		margin: 10upx;
+		border: 1px solid #dfdfdf;
+		.left_pic{
+			display: block;
+			 margin: 0!important;
+		}
+	}
+	.person_pic{
+		width: 150upx;
+		height: 130upx;
+	}
+	.name{
+		color: #616260;
+		font-size: 28upx;
+	}
+	.dsc{
+		font-size: 28upx;
+		color: #df9109;
+	}
+	.kecheng{
+		font-size: 28upx;
+		color: #a8a8a8;
+	}
+	.show_img2{
+		margin-top: 100upx;
+	}
+	.show_img2 .block_box{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.all_tea{
+		font-weight: 900;
+	}
+	.other_tea{
+		color: #c6c6c6;
+	}
 .shouqi{
 	height:90upx;
 	display: flex;
@@ -197,15 +236,16 @@
 	align-items: center;
 	}
 	.introduce_info {
-		padding: 0 33upx;
-		line-height: 46upx;
-		color: #929292;
+		padding: 0 30upx;
+		line-height: 44upx;
+		color: #717171;
+		font-weight: bold;
 	}
 
 	.line {
-		width: 700upx;
-		height: 4upx;
-		background: #EEEEEE;
+		width: 750upx;
+		height: 6upx;
+		background: #f3f3f3;
 		margin: 0 auto;
 		margin: 20upx 0;
 	}
@@ -215,8 +255,12 @@
 		height: 30upx;
 		margin-left: 20upx;
 	}
-
+	.daohang .daohangIcon{
+		margin-right: 10upx;
+		margin-top: -30upx;
+	}
 	.w_address {
+		color:#515151;
 		width: 512upx;
 		margin-right: 10upx;
 	}
@@ -230,8 +274,9 @@
 	}
 
 	.didi {
-		width: 48upx;
-		height: 27upx;
+		padding:0 8upx;
+		/* width: 48upx; */
+		/* height: 27upx; */
 		background: #fc9214;
 		color: #FFFFFF;
 		font-size: 16upx;
@@ -240,8 +285,9 @@
 		border-top-right-radius: 14upx;
 		border-top-left-radius: 14upx;
 		border-bottom-right-radius: 14upx;
-		top: -10upx;
-		left: 65upx;
+		top: -20upx;
+		left: 44upx;
+		z-index: 10;
 	}
 
 	.w_address_car image {
@@ -261,32 +307,40 @@
 		margin: 60upx 0 10upx 0;
 	}
 
-	.show_img {
+	.show_img,.show_imgs {
 		flex-wrap: wrap;
 	}
-
-	.show_img image {
-		width: 345upx;
-		height: 230upx;
+	.show_pic{
+		width: 370upx;
+		height: 260upx;
 		margin: 10upx;
+	}
+	.show_imgs image {
+		width: 350upx;
+		height: 175upx;
 	}
 
 	.threeImg image {
 		width: 230upx;
-		height: 170upx;
+		height: 175upx;
 		margin: 6upx;
 	}
 
 	.active {
 		font-size: 28upx;
 		font-weight: 900;
-		padding-left: 10upx;
+		padding-left: 22upx;
 	}
-
+	.active2{
+		font-size: 22upx;
+		padding-left: 22upx;
+		color: #959395;
+	}
 	.count text {
 		font-size: 30upx;
-		color: #ec9d37;
-		padding-left: 10upx;
+		color: red;
+		font-weight: 900;
+		padding-left: 20upx;
 	}
 
 	.more_ke {
@@ -318,8 +372,8 @@
 	}
 	.one_words{
 		width: 100%;
-		padding-left: 20upx;
+		padding-left: 24upx;
 		font-size: 20upx;
-		color: #929292;
+		color: #b9b9b9;
 	}
 </style>
