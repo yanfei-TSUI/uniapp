@@ -1,7 +1,7 @@
 <template>
 	<view class="h_container">
 		<view class="w_navtab">
-			<image src="../../static/back.png" mode=""></image>
+			<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/back2.png" mode=""></image>
 			<text>INSTYLE造型 (KKmall商场店)</text>
 		</view>
 		<view class="banner">

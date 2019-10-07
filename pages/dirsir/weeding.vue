@@ -1,9 +1,9 @@
 <template>
 	<view class="w_container">
 		<view class="w_navtab">
-			<image src="/static/back.png" mode=""></image>
+			<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/back2.png" mode=""></image>
 			<text>巴黎婚纱摄影（公明总店）</text>
-			<image src="../../static/More.png" mode=""></image>
+			<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/more1.png" mode=""></image>
 		</view>
 		<view class="banner">
 			<image src="../../static/icon/婚纱摄影/婚纱摄影/店铺环境.png" mode=""></image>
@@ -21,7 +21,7 @@
 		</view>
 		<view class="line"></view>
 		<view class="daohang df">
-			<image src="../../static/address.png" mode=""></image>
+			<image class="daohang_img" src="../../static/address.png" mode=""></image>
 			<text class="w_address">西安市雁塔区丈八沟街道科技四路团结南路中国邮政银行对面</text>
 			<view class="w_address_car df">
 				<view class="didi">
@@ -185,7 +185,8 @@
 		border-top-left-radius: 14upx;
 		border-bottom-right-radius: 14upx;
 		top: -10upx;
-		left: 65upx;
+		left: 40upx;
+		z-index: 2;
 	}
 
 	.w_address_car image {
@@ -222,5 +223,11 @@
 		font-size: 20upx;
 		color: #aeaeae;
 		padding-left:10upx;
+	}
+	.daohang_img{
+		margin: -25upx 10upx 0 0;
+	}
+	.img_left_con, .img_right_con{
+		border: 4upx solid #fafafa;
 	}
 </style>
