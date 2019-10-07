@@ -3,22 +3,22 @@
 		<view class="index_header">
 			<view class="i_top">
 				<view class="i_touxiang">
-					<image src="../../static/icon/首页/首页/头像.png" mode="aspectFit"></image>
+					<image src="/static/icon/首页/首页/头像.png" mode="aspectFit"></image>
 				</view>
 				<view class="i_address">
 					<view class="i_address_top">
 						<text>深圳 </text>
-						<image src="../../static/icon/首页/首页/下拉键.png" mode=""></image>
+						<image src="/static/icon/首页/首页/下拉键.png" mode=""></image>
 					</view>
 					<view class="i_address_bottom">
 						晴 27℃
 					</view>
 				</view>
 				<view class="i_search">
-					<image src="../../static/icon/首页/首页/搜素.png" mode="aspectFit"></image>
+					<image src="/static/icon/首页/首页/搜素.png" mode="aspectFit"></image>
 				</view>
 				<view class="i_add">
-					<image src="../../static/icon/首页/首页/更多.png" mode=""></image>
+					<image src="/static/icon/首页/首页/更多.png" mode=""></image>
 					<view class="redMark">
 
 					</view>
@@ -27,11 +27,15 @@
 		</view>
 		<view class="i_nav">
 			<navigator url="./weeding" class="i_nav_con">
-				<image src="../../static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
+				<image src="/static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
 				<text>餐饮美食</text>
 			</navigator>
 			<view class="i_nav_con">
-				<image src="../../static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
+				<image src="/static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
+				<text>餐饮美食</text>
+			</view>
+			<view class="i_nav_con">
+				<image src="/static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
 				<text>餐饮美食</text>
 			</view>
 			<view class="i_nav_con">
@@ -39,48 +43,44 @@
 				<text>餐饮美食</text>
 			</view>
 			<view class="i_nav_con">
-				<image src="../../static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
+				<image src="/static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
 				<text>餐饮美食</text>
 			</view>
 			<view class="i_nav_con">
-				<image src="../../static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
+				<image src="/static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
 				<text>餐饮美食</text>
 			</view>
 			<view class="i_nav_con">
-				<image src="../../static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
+				<image src="/static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
 				<text>餐饮美食</text>
 			</view>
 			<view class="i_nav_con">
-				<image src="../../static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
+				<image src="/static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
 				<text>餐饮美食</text>
 			</view>
 			<view class="i_nav_con">
-				<image src="../../static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
+				<image src="/static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
 				<text>餐饮美食</text>
 			</view>
 			<view class="i_nav_con">
-				<image src="../../static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
-				<text>餐饮美食</text>
-			</view>
-			<view class="i_nav_con">
-				<image src="../../static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
+				<image src="/static/icon/首页/首页/nav1.png" mode="aspectFit"></image>
 				<text>餐饮美食</text>
 			</view>
 
 		</view>
 		<view class="i_adv">
-			<image src="../../static/icon/首页/首页/广告.png" mode=""></image>
+			<image src="/static/icon/首页/首页/广告.png" mode=""></image>
 		</view>
 		<view class="con i_product">
 			<view class="pro_left">
-				<image src="../../static/icon/首页/首页/商家01.png" mode=""></image>
+				<image src="/static/icon/首页/首页/商家01.png" mode=""></image>
 			</view>
 			<view class="pro_right">
 				<view class="pro_name">
 					2份紫薯小丸子珍珠奶茶(...
 				</view>
 				<view class="pro_address">
-					<image src="../../static/icon/首页/首页/i_address.png" mode=""></image>
+					<image src="/static/icon/首页/首页/i_address.png" mode=""></image>
 					快乐柠檬（西安大都会店）
 					<text>681m</text>
 				</view>
@@ -106,42 +106,46 @@
 					</view>
 				</view>
 				<view class="pro_address shop_top_address">
-					<image src="../../static/icon/首页/首页/i_address.png" mode=""></image>
+					<image src="/static/icon/首页/首页/i_address.png" mode=""></image>
 					<view class="shop_top_address_name">快乐柠檬（西安大都会店）</view>
 					<text>681m</text>
 				</view>
 			</view>
 			<view class="shop_bottom">
 				<view class="shop_bottom_con">
-					<image src="../../static/icon/首页/首页/商家02-1.png" mode="aspectFit"></image>
+					<image src="/static/icon/首页/首页/商家02-1.png" mode="aspectFit"></image>
 					<text>招牌三合一</text>
+					<span>￥19.0</span>
 				</view>
 				<view class="shop_bottom_con">
-					<image src="../../static/icon/首页/首页/商家02-2.png" mode=""></image>
+					<image src="/static/icon/首页/首页/商家02-2.png" mode=""></image>
 					<text>招牌三合一</text>
+					<span>￥19.0</span>
 				</view>
 				<view class="shop_bottom_con">
-					<image src="../../static/icon/首页/首页/商家02-3.png" mode=""></image>
+					<image src="/static/icon/首页/首页/商家02-3.png" mode=""></image>
 					<text>招牌三合一</text>
+					<span>￥19.0</span>
 				</view>
 			</view>
 		</view>
 		<view class="con i_product">
 			<view class="pro_left">
-				<image src="../../static/icon/首页/首页/商家01.png" mode=""></image>
+				<image src="/static/icon/首页/首页/商家01.png" mode=""></image>
 			</view>
 			<view class="pro_right">
 				<view class="pro_name">
 					2份紫薯小丸子珍珠奶茶(...
 				</view>
 				<view class="pro_address">
-					<image src="../../static/icon/首页/首页/i_address.png" mode=""></image>
+					<image src="/static/icon/首页/首页/i_address.png" mode=""></image>
 					快乐柠檬（西安大都会店）
 					<text>681m</text>
 				</view>
-				<view class="i_price">
-					<text class="now_price">16</text>元
-					<text class="away_price"> 32元</text>
+				<view class="i_price price_two">
+					<text class="">wifi</text>
+					<text class="">品种丰富</text>
+					<text class="">好美味</text>
 				</view>
 				<view class="huodong">
 					会员享受7折优惠
@@ -161,23 +165,26 @@
 					</view>
 				</view>
 				<view class="pro_address shop_top_address">
-					<image src="../../static/icon/首页/首页/i_address.png" mode=""></image>
+					<image src="/static/icon/首页/首页/i_address.png" mode=""></image>
 					<view class="shop_top_address_name">快乐柠檬（西安大都会店）</view>
 					<text>681m</text>
 				</view>
 			</view>
 			<view class="shop_bottom">
 				<view class="shop_bottom_con">
-					<image src="../../static/icon/首页/首页/商家02-1.png" mode="aspectFit"></image>
+					<image src="/static/icon/首页/首页/商家02-1.png" mode="aspectFit"></image>
 					<text>招牌三合一</text>
+					<span>￥19.0</span>
 				</view>
 				<view class="shop_bottom_con">
-					<image src="../../static/icon/首页/首页/商家02-2.png" mode=""></image>
+					<image src="/static/icon/首页/首页/商家02-2.png" mode=""></image>
 					<text>招牌三合一</text>
+					<span>￥19.0</span>
 				</view>
 				<view class="shop_bottom_con">
-					<image src="../../static/icon/首页/首页/商家02-3.png" mode=""></image>
+					<image src="/static/icon/首页/首页/商家02-3.png" mode=""></image>
 					<text>招牌三合一</text>
+					<span>￥19.0</span>
 				</view>
 			</view>
 		</view>
@@ -325,7 +332,7 @@
 
 	.i_nav_con text {
 		font-size: 20upx;
-		color: #c8cac1;
+		color: #b7b3b4;
 	}
 
 	.i_adv {
@@ -335,7 +342,7 @@
 	}
 
 	.i_adv image {
-		width: 704upx;
+		width: 700upx;
 		height: 178upx;
 		margin-top: 132upx;
 		border-radius: 10upx;
@@ -345,7 +352,7 @@
 		margin-top: 20upx;
 		padding: 20upx;
 		display: flex;
-		border: 4upx solid #F9F9F9;
+		border: 8upx solid #F9F9F9;
 	}
 
 	.pro_left {
@@ -353,8 +360,8 @@
 	}
 
 	.pro_left image {
-		width: 186upx;
-		height: 188upx;
+		width: 190upx;
+		height: 190upx;
 	}
 
 	.pro_right {
@@ -365,8 +372,8 @@
 	}
 
 	.pro_right image {
-		width: 14upx;
-		height: 16upx;
+		width: 26upx;
+		height: 28upx;
 		vertical-align: middle;
 	}
 
@@ -378,38 +385,52 @@
 
 	.pro_address {
 		display: flex;
+		justify-content: space-between;
 		align-items: center;
-		font-size: 24upx;
-		margin-top: 15upx
+		font-size: 26upx;
+		margin: 16upx 0;
 	}
 
 	.i_price {
-		font-size: 30upx;
-		color: #ed7a72;
-		line-height: 50upx;
+		font-size: 24upx;
+		color: #bc9296;
+		line-height: 38upx;
+		margin-bottom: 8upx;
 	}
-
+	.price_two{
+		color: #8c8c8c;
+		margin-bottom: 10upx;
+	}
+	.price_two text{
+		height: 30upx;
+		padding: 10upx;
+		margin-right: 10upx;
+		background: #f6f6f6;
+	}
 	.now_price {
 		color: #f22118;
-		font-size: 36upx;
+		font-size: 38upx;
 		font-weight: 900;
 	}
 
 	.away_price {
-		font-size: 30upx;
+		font-size: 24upx;
 		color: #dddddd;
 		margin-left: 10upx;
 		text-decoration: line-through;
 	}
 
 	.huodong {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		width: 165upx;
 		font-size: 18upx;
 		background: #f48b3c;
 		color: #FFFFFF;
 		border-radius: 20upx;
 		text-align: center;
-		margin-top: 15upx;
+		padding: 5upx;
 	}
 
 	.i_shop {
@@ -419,6 +440,7 @@
 		margin-top: 20upx;
 		background: #FFFFFF;
 		padding: 25upx 15upx;
+		border: 8upx solid #F9F9F9;
 	}
 
 	.shop_top {
@@ -435,17 +457,16 @@
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
-		margin-bottom: 20upx;
 	}
 
 	.shop_top_address {
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-start;
 	}
 
 	.shop_top_address image {
-		width: 20upx;
-		height: 22upx;
+		width: 26upx;
+		height: 28upx;
 	}
 
 	.shop_top_address text {
@@ -453,7 +474,7 @@
 	}
 
 	.shop_top_address_name {
-		margin-left: -300upx;
+		margin: 0 220upx 0 10upx;
 	}
 
 	.shop_name_th {
@@ -470,8 +491,16 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
+		position: relative;
 	}
-
+	.shop_bottom_con span{
+		font-size: 20upx;
+		font-weight: 900;
+		color: #FFFFFF;
+		position: absolute;
+		top: 135upx;
+	}
 	.shop_bottom_con image {
 		display: block;
 		width: 220upx;
@@ -480,6 +509,7 @@
 
 	.shop_bottom_con text {
 		font-size: 26upx;
+		font-weight: 900;
 		text-align: center;
 		padding-top: 10upx;
 	}
