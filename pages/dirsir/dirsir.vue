@@ -88,9 +88,9 @@
 					<text class="now_price">16</text>元
 					<text class="away_price">32元</text>
 				</view>
-				<view class="huodong">
+				<text class="huodong">
 					会员享受7折优惠
-				</view>
+				</text>
 			</view>
 		</view>
 		<view class="i_shop">
@@ -161,6 +161,9 @@
 						</view>
 						<view class="huodong">
 							会员享受7折优惠
+						</view>
+						<view class="show_info">
+							<image src="/static/icon/餐饮美食/餐饮列表/餐饮切片/show.png" mode=""></image>
 						</view>
 					</view>
 				</view>
@@ -397,16 +400,19 @@
 		line-height: 38upx;
 		margin-bottom: 8upx;
 	}
-	.price_two{
+
+	.price_two {
 		color: #8c8c8c;
 		margin-bottom: 10upx;
 	}
-	.price_two text{
+
+	.price_two text {
 		height: 30upx;
 		padding: 10upx;
 		margin-right: 10upx;
 		background: #f6f6f6;
 	}
+
 	.now_price {
 		color: #f22118;
 		font-size: 38upx;
@@ -424,13 +430,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 165upx;
+		width: 170upx;
 		font-size: 18upx;
 		background: #f48b3c;
 		color: #FFFFFF;
 		border-radius: 20upx;
 		text-align: center;
-		padding: 5upx;
+		padding: 5upx 0;
 	}
 
 	.i_shop {
@@ -494,13 +500,15 @@
 		align-items: center;
 		position: relative;
 	}
-	.shop_bottom_con span{
+
+	.shop_bottom_con span {
 		font-size: 20upx;
 		font-weight: 900;
 		color: #FFFFFF;
 		position: absolute;
 		top: 135upx;
 	}
+
 	.shop_bottom_con image {
 		display: block;
 		width: 220upx;
@@ -512,5 +520,15 @@
 		font-weight: 900;
 		text-align: center;
 		padding-top: 10upx;
+	}
+
+	.show_info {
+		display: flex;
+		align-items: center;
+	}
+
+	.show_info image {
+		width: 40upx;
+		height: 30upx;
 	}
 </style>
