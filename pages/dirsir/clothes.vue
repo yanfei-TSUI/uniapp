@@ -37,7 +37,7 @@
 				<image src="/static/icon/婚纱摄影/婚纱摄影/电话.png" mode=""></image>
 			</view>
 		</view>
-		<!-- <view class="line"></view> -->
+		<view class="line"></view>
 		<view class="in_shop">
 			<view class="show_con">
 				店内环境
@@ -78,6 +78,9 @@
 					<text>￥79.00</text>
 				</view>
 			</view>
+		</view>
+		<view class="line">
+			
 		</view>
 		<!-- 第二种样式 -->
 		<view class="show_img df two">
@@ -198,7 +201,7 @@
 	}
 
 	.line {
-		width: 700upx;
+		width: 100%;
 		height: 4upx;
 		background: #EEEEEE;
 		margin: 0 auto;
@@ -255,7 +258,7 @@
 	.in_shop {
 		display: flex;
 		width: 700upx;
-		height: 90upx;
+		height: 60upx;
 		align-items: center;
 		/* background: #FFFFFF; */
 		/* margin: 10upx 0; */
@@ -284,7 +287,11 @@
 	}
 
 	.show_img_two {
-		border-bottom: 0upx solid #efedee;
+		width: 700upx;
+		background: #f5f5f5;
+		border-bottom:none;
+		justify-content: space-between;
+		padding-bottom: 0;
 	}
 
 	.show_img image {
@@ -292,16 +299,20 @@
 		height: 226upx;
 		margin: 10upx;
 	}
+	.show_img_two  image{
+		margin: 0;
+	}
 
 	.active {
 		font-size: 28upx;
 		font-weight: 900;
 		padding-left: 10upx;
+		color: #797979;
 	}
 
 	.count text {
 		font-size: 30upx;
-		color: #ec5c8f;
+		color: #bd7a91;
 		padding-left: 10upx;
 	}
 
@@ -347,14 +358,12 @@
 		align-items: center;
 	}
 
-
-
-
-
-
 	.two image {
 		width: 345upx;
 		height: 345upx;
 		margin: 10upx;
+	}
+	.img_left_con, .img_right_con{
+		background: #FFFFFF;
 	}
 </style>
