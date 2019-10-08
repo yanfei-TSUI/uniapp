@@ -3,7 +3,7 @@
 		<view class="w_navtab">
 			<image src="../../static/back.png" mode=""></image>
 			<text>美联英语（宏发中心）</text>
-			<image src="../../static/More.png" mode=""></image>
+			<image src="../../static/More1.png" mode=""></image>
 		</view>
 		<view class="introduce_con df">
 			<view class="introduce_tit">

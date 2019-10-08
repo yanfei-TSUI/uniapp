@@ -1,5 +1,9 @@
 <template>
 	<view class="w_container">
+		<view class="top_nav">
+			<image src="/static/back1.png" mode=""></image>
+			<image src="/static/More.png" mode=""></image>
+		</view>
 		<view class="banner">
 			<image class="bannerImg" src="../../../static/icon/酒店/酒店详细页/酒店切图/微信图片_20191001150140_01.gif" mode=""></image>
 		</view>
@@ -186,6 +190,7 @@
 		flex-direction: column;
 		align-items: center;
 		background-color: #FFFFFF;
+		position: relative;
 	}
 
 	.w_navtab {
@@ -217,7 +222,7 @@
 	}
 
 	.introduce_youhui {
-		width: 180upx;
+		padding: 0 10upx;
 		height: 32upx;
 		line-height: 32upx;
 		border-radius: 16upx;
@@ -409,5 +414,18 @@
 	.hotel_room_info img {
 		width: 38upx;
 		height: 38upx;
+	}
+	.top_nav{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 50upx;
+		z-index: 2;
+	}
+	.top_nav image{
+		width: 42upx;
+		height: 42upx;
+		margin: 0 20upx;
 	}
 </style>

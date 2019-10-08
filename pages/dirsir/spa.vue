@@ -1,7 +1,7 @@
 <template>
 	<view class="w_container">
 		<view class="w_navtab">
-			<image src="../../static/back.png" mode=""></image>
+			<image src="../../static/back1.png" mode=""></image>
 			<text></text>
 			<image src="../../static/More.png" mode=""></image>
 		</view>
@@ -236,8 +236,8 @@
 	}
 
 	.didi {
-		width: 48upx;
-		height: 27upx;
+		/* width: 48upx; */
+		/* height: 27upx; */
 		background: #fc9214;
 		color: #FFFFFF;
 		font-size: 16upx;
@@ -246,8 +246,10 @@
 		border-top-right-radius: 14upx;
 		border-top-left-radius: 14upx;
 		border-bottom-right-radius: 14upx;
-		top: -10upx;
-		left: 65upx;
+		padding: 2upx 4upx;
+		z-index: 10;
+		top: -16upx;
+		right: 80upx;
 	}
 
 	.w_address_car image {

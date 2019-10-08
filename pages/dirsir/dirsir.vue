@@ -16,6 +16,7 @@
 				</view>
 				<view class="i_search">
 					<image src="/static/icon/首页/首页/搜素.png" mode="aspectFit"></image>
+					<input class="search_input" type="text" value="" />
 				</view>
 				<view class="i_add">
 					<image src="/static/icon/首页/首页/更多.png" mode=""></image>
@@ -88,9 +89,9 @@
 					<text class="now_price">16</text>元
 					<text class="away_price">32元</text>
 				</view>
-				<text class="huodong">
-					会员享受7折优惠
-				</text>
+				<view style="display: flex;">
+					<text class="huodong">会员享受7折优惠</text>
+				</view>
 			</view>
 		</view>
 		<view class="i_shop">
@@ -147,8 +148,8 @@
 					<text class="">品种丰富</text>
 					<text class="">好美味</text>
 				</view>
-				<view class="huodong">
-					会员享受7折优惠
+				<view style="display: flex;">
+					<text class="huodong">会员享受7折优惠</text>
 				</view>
 			</view>
 		</view>
@@ -285,7 +286,11 @@
 		width: 34upx;
 		height: 34upx;
 	}
-
+	.search_input{
+		width: 85%;
+		height: 60upx;
+		margin-left: 10upx;
+	}
 	.i_add {
 		position: relative;
 	}
@@ -427,16 +432,17 @@
 	}
 
 	.huodong {
+		white-space: nowrap;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 170upx;
+		/* width: 170upx; */
 		font-size: 18upx;
 		background: #f48b3c;
 		color: #FFFFFF;
 		border-radius: 20upx;
 		text-align: center;
-		padding: 5upx 0;
+		padding: 5upx 10upx;
 	}
 
 	.i_shop {

@@ -330,18 +330,20 @@
 	}
 
 	.didi {
-		width: 48upx;
-		height: 27upx;
+		/* width: 48upx; */
+		/* height: 27upx; */
 		background: #fc9214;
 		color: #FFFFFF;
 		font-size: 16upx;
 		text-align: center;
 		position: absolute;
+		z-index: 10;
 		border-top-right-radius: 14upx;
 		border-top-left-radius: 14upx;
 		border-bottom-right-radius: 14upx;
-		top: -6upx;
-		right: 80upx;
+		padding: 2upx 6upx;
+		top: -8upx;
+		right: 92upx;
 	}
 
 	.w_address_car image {

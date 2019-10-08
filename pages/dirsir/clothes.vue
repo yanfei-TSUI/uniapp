@@ -164,7 +164,8 @@
 	}
 
 	.introduce_youhui {
-		width: 180upx;
+		/* width: 180upx; */
+		padding: 0 10upx;
 		height: 32upx;
 		line-height: 32upx;
 		border-radius: 16upx;

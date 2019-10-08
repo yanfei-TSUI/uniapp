@@ -174,8 +174,8 @@
 	}
 
 	.didi {
-		width: 48upx;
-		height: 27upx;
+		/* width: 48upx; */
+		/* height: 27upx; */
 		background: #fc9214;
 		color: #FFFFFF;
 		font-size: 16upx;
@@ -184,8 +184,9 @@
 		border-top-right-radius: 14upx;
 		border-top-left-radius: 14upx;
 		border-bottom-right-radius: 14upx;
-		top: -10upx;
-		left: 40upx;
+		top: -16upx;
+		right: 76upx;
+		padding: 2upx 4upx;
 		z-index: 2;
 	}
 
